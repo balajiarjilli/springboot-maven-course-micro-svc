@@ -40,7 +40,7 @@
 		</dependency>
 
 	</dependencies>
-
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -60,3 +60,14 @@
 	</build>
 
 </project>
+
+<distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://3.138.60.235:8081/repository/maven-snapshots/</url>
+   </snapshotRepository>
+   <repository>
+      <id>nexus-releases</id>
+      <url>http://3.138.60.235:8081/repository/maven-releases/</url>
+   </repository>
+</distributionManagement>
